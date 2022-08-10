@@ -14,8 +14,7 @@ document.querySelector('#searchBtn').addEventListener('click',() =>{
             for(let i=0;i<response.items.length;i++){
                 output+=`
                 <div style="width: 22%; margin: 0.5em;">
-                    <a href="https://www.youtube.com/watch?v=${response.items[i].id.videoId}" target="_blank" >
-                        <img style="width: 100%;" src=${response.items[i].snippet.thumbnails.high.url} />
+                 <img style="width: 100%;" src=${response.items[i].snippet.thumbnails.high.url} />
                     </a>
                     <h5>${response.items[i].snippet.title}</h5>
                     <p style="color: gray;">${response.items[i].snippet.description}</p>

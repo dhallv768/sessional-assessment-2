@@ -59,21 +59,3 @@ header{
     width: 100%;
 }   
 
-.footer{
-    background-color: black;
-    height: 8vh;
-    width: 15%;
-    display: flex;
-    flex-direction: row;
-
-}
-
-
-.btn{ 
-    background-color: white;
-    width: 25%;
-    height:8vh;
-    color: black;
-    font-size: xx-large;
-    cursor: pointer;
-}
