@@ -1,0 +1,66 @@
+body{
+    margin:0;
+    background-color: gray;
+}
+
+header{
+    background-color: black;
+    opacity: 0.8;  
+}
+.logo{
+
+    height: 8vh;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center ;
+}
+.logo img{
+
+    height:3vh;
+    width:3vh;
+    margin-left: 1rem;
+}
+
+.logo a{
+   text-decoration: none;
+    color: whitesmoke;
+    font-size: xx-large;
+}
+.logo input::placeholder { 
+    color: black;
+}
+
+.logo input{
+    border: 2px solid gray;
+    border-radius: 5%;
+    height: 3.5vh;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+
+}
+
+.footer{
+    background-color: white;
+    height: 8vh;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.btn{ 
+    background-color: black;
+    width: 50%;
+    height:8vh;
+    color: aquamarine;
+    font-size: xx-large;
+    cursor: pointer;
+}
