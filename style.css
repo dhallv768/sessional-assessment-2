@@ -8,13 +8,13 @@ header{
     opacity: 0.8;  
 }
 .logo{
-
     height: 8vh;
     width: 60%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center ;
+    flex-wrap: wrap;
 }
 .logo img{
 
@@ -38,18 +38,31 @@ header{
     height: 3.5vh;
 }
 
+.logo button{
+    border: 2px solid gray;
+    border-radius: 5%;
+    height: 4.2vh;
+    cursor: pointer;
+}
+
 .main{
     display: flex;
     flex-direction: column;
     justify-content: center ;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
+#images{
+    height: 65vh;
+    width: 100%;
+}   
+
 .footer{
-    background-color: white;
+    background-color: black;
     height: 8vh;
-    width: 60%;
+    width: 15%;
     display: flex;
     flex-direction: row;
 
@@ -57,10 +70,10 @@ header{
 
 
 .btn{ 
-    background-color: black;
-    width: 50%;
+    background-color: white;
+    width: 25%;
     height:8vh;
-    color: aquamarine;
+    color: black;
     font-size: xx-large;
     cursor: pointer;
 }
