@@ -29,21 +29,14 @@ header{
     color: whitesmoke;
     font-size: xx-large;
 }
-.logo input::placeholder { 
-    color: black;
-}
 
-.logo input{
-    border: 2px solid gray;
-    border-radius: 5%;
-    height: 3.5vh;
-}
 
 .logo button{
     border: 2px solid gray;
     border-radius: 5%;
     height: 4.2vh;
     cursor: pointer;
+    background-color: burlywood;
 }
 
 .main{
